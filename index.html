@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Louis Foley Jr. — Mechanical Engineer</title>
+  <link rel="icon" href="favicon.svg" />
+  <meta name="description" content="Louis Foley Jr. — Mechanical Engineer (Northeastern '26). Product development, R&D, and design across SharkNinja, Entegris, and PolyJoule." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">Louis Foley Jr.</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="Louis Foley Jr." onerror="this.style.display='none'; document.getElementById('photo-initials').style.display='flex';" />
+        <div id="photo-initials" class="photo-initials">LF</div>
+      </div>
+      <h1>Louis Foley Jr.</h1>
+      <p class="hero-title">Mechanical Engineer</p>
+      <p class="hero-sub">BS Mechanical Engineering · Northeastern University · May 2026</p>
+      <div class="hero-links">
+        <a href="projects.html" class="btn btn-primary">View Projects</a>
+        <a href="https://www.linkedin.com/in/louis-foley-jr/" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a mechanical engineer with a minor in computer science, graduated from Northeastern University in May 2026. My background spans R&D at consumer electronics, semiconductor equipment, and energy-storage startups — with three co-ops across SharkNinja, Entegris, and PolyJoule Inc.</p>
+          <p>I work across the full product-development cycle: concept, CAD, prototype, test, iterate. I'm also comfortable on the software side — at SharkNinja I built a Python-based tool that replaced qualitative gut-checks with a quantitative scoring system for heat distribution, which the team adopted as their standard R&D workflow.</p>
+          <p>Outside of work I'm building Aphrones — a convertible headphone system designed around hairstyles that traditional headphones can't accommodate. It's a real hardware problem I'm solving from scratch: mechanism design, human factors, and manufacturing feasibility.</p>
+        </div>
+        <div class="about-facts">
+          <div class="fact"><span class="fact-label">Degree</span><span class="fact-value">BS Mechanical Engineering</span></div>
+          <div class="fact"><span class="fact-label">Minor</span><span class="fact-value">Computer Science</span></div>
+          <div class="fact"><span class="fact-label">School</span><span class="fact-value">Northeastern University</span></div>
+          <div class="fact"><span class="fact-label">Location</span><span class="fact-value">Boston, MA / New York, NY</span></div>
+          <div class="fact"><span class="fact-label">Open to</span><span class="fact-value">ME Design · R&D · Manufacturing · Robotics</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section-gray">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-card">
+          <h3>Design &amp; Engineering</h3>
+          <ul>
+            <li>SolidWorks (CSWP)</li>
+            <li>NX CAD</li>
+            <li>GD&amp;T &amp; Tolerance Analysis</li>
+            <li>FEA / Thermal &amp; Fluid Analysis</li>
+            <li>Rapid Prototyping &amp; 3D Printing</li>
+            <li>Design for Manufacturability &amp; Assembly (DFM/DFA)</li>
+          </ul>
+        </div>
+        <div class="skills-card">
+          <h3>Programming &amp; Tools</h3>
+          <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>MATLAB</li>
+            <li>GitHub</li>
+            <li>Microsoft Excel</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3>SharkNinja</h3><p class="timeline-role">R&D Mechanical Engineering Co-op · Hair Care</p></div>
+              <div class="timeline-meta"><span class="timeline-date">Jan 2026 – Jun 2026</span><span class="timeline-location">Needham, MA</span></div>
+            </div>
+            <ul>
+              <li>Iterated 10+ outlet-grille geometries in SolidWorks, applying DFM principles to optimize heat distribution toward product KPIs for a high-volume consumer haircare product.</li>
+              <li>Built a Python web app that quantitatively scores heat distribution across grille geometries, replacing vague qualitative comparisons — adopted as the team's standard R&D workflow.</li>
+              <li>Designed and validated a gentle drying attachment in CAD, conducting thermal and mechanical testing against product specifications.</li>
+              <li>Rapidly modeled device configuration changes to quantify performance impact for fast design iteration.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3>Entegris</h3><p class="timeline-role">R&D Mechanical Engineering Co-op · Semiconductor Equipment</p></div>
+              <div class="timeline-meta"><span class="timeline-date">Jun 2024 – Dec 2024</span><span class="timeline-location">Bedford, MA</span></div>
+            </div>
+            <ul>
+              <li>Designed and 3D-printed 5+ prototype filter cores in SolidWorks to reduce differential pressure while maintaining teflon-membrane integrity under 30+ psi loads.</li>
+              <li>Fabricated a custom test fixture enabling parallel testing of 5+ core geometries, cutting validation time by a minimum of 40%.</li>
+              <li>Built a drop-test mechanism that identified key filter failure points, improving impact resistance.</li>
+              <li>Led weekly R&D syncs, presenting results and proposing next-gen core concepts adopted for the 2025 pilot design.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div><h3>PolyJoule Inc.</h3><p class="timeline-role">Mechanical Engineering Co-op · MIT Startup, Energy Storage</p></div>
+              <div class="timeline-meta"><span class="timeline-date">Jan 2023 – May 2023</span><span class="timeline-location">Billerica, MA</span></div>
+            </div>
+            <ul>
+              <li>Optimized polymer electrolyte formulations across 15+ design iterations, improving ionic conductivity and physical consistency.</li>
+              <li>Researched production-process improvements and established relationships with 4 manufacturing partners to support scale-up and data collection.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section id="featured" class="section-gray">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="proj-index-grid">
+
+        <a class="proj-index-card" href="project-aphrones.html">
+          <img class="proj-index-img" src="assets/aphrones.jpg" alt="Aphrones convertible headphones" loading="lazy" />
+          <div class="proj-index-body">
+            <div class="project-tag">Hardware · Founder</div>
+            <h3>Aphrones Headphones</h3>
+            <p>A convertible over-ear headphone for textured and protective hairstyles — behind-the-neck to overhead in one motion.</p>
+            <span class="proj-index-more">View project →</span>
+          </div>
+        </a>
+
+        <a class="proj-index-card" href="project-filter-strength.html">
+          <img class="proj-index-img" src="assets/filter-strength.jpg" alt="Filter strength test mechanism" loading="lazy" />
+          <div class="proj-index-body">
+            <div class="project-tag">Mechanical · Entegris</div>
+            <h3>Filter Strength Test Mechanism</h3>
+            <p>A quality-assessment rig to test pilot-filter strength and viability — now a standard R&D tool.</p>
+            <span class="proj-index-more">View project →</span>
+          </div>
+        </a>
+
+        <a class="proj-index-card" href="project-hydroponics.html">
+          <img class="proj-index-img" src="assets/hydroponics.webp" alt="NFT hydroponic system" loading="lazy" />
+          <div class="proj-index-body">
+            <div class="project-tag">Research · PEAK Award</div>
+            <h3>NFT Hydroponic System</h3>
+            <p>A closed-loop hydroponic system with environmental monitoring and remote control, built by a 3-person team.</p>
+            <span class="proj-index-more">View project →</span>
+          </div>
+        </a>
+
+      </div>
+      <div class="section-cta"><a href="projects.html" class="btn btn-primary">View all projects</a></div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's talk</h2>
+      <p class="contact-sub">Open to full-time mechanical engineering roles in design, R&D, and manufacturing. Based in Boston / New York.</p>
+      <div class="hero-links">
+        <a href="contact.html" class="btn btn-primary">Contact Me</a>
+        <a href="mailto:lfoley1216@gmail.com" class="btn btn-outline">lfoley1216@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <footer><p>© 2026 Louis Foley Jr. · <a href="mailto:lfoley1216@gmail.com">lfoley1216@gmail.com</a></p></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
